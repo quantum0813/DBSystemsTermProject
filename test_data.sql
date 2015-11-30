@@ -1,0 +1,33 @@
+INSERT INTO bars VALUES ('The Lockview', '207 S Main St', 'Akron', 'OH', 44308);
+INSERT INTO bars VALUES ('69 Taps', '370 Paul Williams St', 'Akron', 'OH', 44311);
+INSERT INTO bars VALUES ('Barley House', '222 S Main St #1B', 'Akron', 'OH', 44308);
+
+INSERT INTO beers VALUES ('Lager of the Lakes', 'Bells Brewery', 'Lager', 8);
+INSERT INTO beers VALUES ('Vanilla Porter', 'Breckenridge', 'Porter', 9);
+INSERT INTO beers VALUES ('Blast Double IPA', 'Brooklyn Brewery', 'IPA', 7);
+INSERT INTO beers VALUES ('60 Min IPA', 'Dogfish Head', 'IPA', 8);
+INSERT INTO beers VALUES ('90 Min IPA', 'Dogfish Head', 'IPA', 7);
+INSERT INTO beers VALUES ('Hop House', 'Ommegang', 'Lager', 5);
+INSERT INTO beers VALUES ('Labatt Blue', 'Labatt Brewing Company', 'Lager', 6);
+INSERT INTO beers VALUES ('Sierra Nevada Pale Ale', 'Sierra Nevada Brewing Company', 'IPA', 6);
+INSERT INTO beers VALUES ('Yuengling Oktoberfest', 'Yuengling Brewery', 'Oktoberfest', 8);
+INSERT INTO beers VALUES ('Miller Lite', 'Miller Brewing Company', 'Light Lager', 4);
+INSERT INTO beers VALUES ('Coors Light', 'Coors Brewing Company', 'Lager', 5);
+INSERT INTO beers VALUES ('Miller High Life', 'Budweiser', 'Lager', 7);
+INSERT INTO beers VALUES ('Angry Orchard Crisp Apple', 'Angry Orchard', 'Hard Cider', 9);
+INSERT INTO beers VALUES ('Guinness Draught', 'Guinness Ltd.', 'Stout', 7);
+
+INSERT INTO serves VALUES ('The Lockview', 'Lager of the Lakes', 5.00);
+INSERT INTO serves VALUES ('The Lockview', 'Vanilla Porter', 6.00);
+INSERT INTO serves VALUES ('The Lockview', 'Blast Double IPA', 4.00);
+INSERT INTO serves VALUES ('The Lockview', '60 Min IPA', 4.00);
+INSERT INTO serves VALUES ('The Lockview', '90 Min IPA', 6.00);
+INSERT INTO serves VALUES ('The Lockview', 'Hop House', 5.00);
+INSERT INTO serves VALUES ('69 Taps', 'Labatt Blue', 3.00);
+INSERT INTO serves VALUES ('69 Taps', 'Sierra Nevada Pale Ale', 4.00);
+INSERT INTO serves VALUES ('69 Taps', 'Yuengling Oktoberfest', 4.00);
+INSERT INTO serves VALUES ('69 Taps', 'Miller Lite', 3.00);
+INSERT INTO serves VALUES ('Barley House', 'Coors Light', 2.50);
+INSERT INTO serves VALUES ('Barley House', 'Miller High Life', 2.75);
+INSERT INTO serves VALUES ('Barley House', 'Angry Orchard Crisp Apple', 6.00);
+INSERT INTO serves VALUES ('Barley House', 'Guinness Draught', 6.00);
